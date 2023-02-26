@@ -1,0 +1,54 @@
+html {
+    background: linear-gradient(177.52deg, #000000 2.11%, #871f 81.34%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', 'sans-serif', 'Mansalva', cursive;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    margin: 35px 5px 0 5px;
+}
+
+.cabecalho h1 {
+    color: aliceblue;
+    font-family: 'Mansalva';
+    font-size:36px;
+}
+
+h2, footer {
+    font-family: 'Mansalva';
+}
+
+button {
+    border: none;
+    margin-top: 1.3rem;
+}
+
+.itens-comprados {
+text-decoration: line-through;
+}
+
+.borda-lista {
+    border-bottom: dotted 2px #501580;
+}
+
+input:disabled {
+    border: none;
+    background: none;
+    color: black;
+}
+
+input {
+    border: none;
+    background: none;
+    color: black;
+}
+
+.is-clickable {
+    margin-left: 0.5rem;
+}
